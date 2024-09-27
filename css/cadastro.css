@@ -1,0 +1,47 @@
+#formulario{
+    border: 2px solid rgb(223, 36, 192);
+    width: 300px;
+    height: 390px;
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+    font-size: 13pt;
+    font-style: italic;
+}
+
+h2{
+    color: rgb(185, 56, 211);
+    text-align: center;
+    text-decoration: underline;
+}
+
+input{
+    border-color: rgb(225, 0, 255);
+}
+
+button{
+    width: 90px;
+    margin: 18px;
+    padding: 3px;
+    border-color: rgb(177, 28, 236);
+    font-weight: bold; 
+    margin-left: 30px;   
+    background-color: #ccc;
+}
+
+.tabela{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.tabela th{
+    padding: 5px;
+    font-size: 14pt;
+}
+
+.tabela td{
+    padding: 5px;
+    font-size: 13pt;
+}
