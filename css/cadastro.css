@@ -45,3 +45,27 @@ button{
     padding: 5px;
     font-size: 13pt;
 }
+
+@media screen and (max-width:780px){
+    #formulario{
+        width: 270px;
+        height: 380px;
+        padding: 10px;
+    }
+
+    button{
+        width: 90px;
+        margin: 20px;
+    }
+
+    .tabela{
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+
+    .tabela th, .tabela td {
+        white-space: nowrap;
+    }
+
+}
