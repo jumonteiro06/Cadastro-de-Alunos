@@ -7,6 +7,8 @@
     margin: auto;
     font-size: 13pt;
     font-style: italic;
+    background-color: black;
+    color: white;
 }
 
 h2{
@@ -33,17 +35,20 @@ button{
     border: 1px solid black;
     width: 100%;
     text-align: center;
-    padding: 5px;
 }
 
 .tabela th{
-    padding: 5px;
     font-size: 14pt;
 }
 
 .tabela td{
-    padding: 5px;
     font-size: 13pt;
+}
+
+.tabela td, .tabela th{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
 }
 
 @media screen and (max-width:780px){
