@@ -56,7 +56,8 @@ function determinarConceito(notaFinal) {
 function exibirDados() {
     document.getElementById("formulario").style.display = 'none';
 
-    let conteudo = `<table class="tabela">
+    let conteudo = `<div class="tabela-responsivo">                    
+                    <table class="tabela">
                       <tr>
                         <th>Nome</th>
                         <th>Rgm</th>
@@ -83,7 +84,7 @@ function exibirDados() {
                      </tr>`;
     }
 
-    conteudo += `</table>`;
+    conteudo += `</table><\div>`;
 
     document.getElementById("saida").innerHTML = conteudo;
 }
